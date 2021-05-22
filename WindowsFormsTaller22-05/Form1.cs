@@ -44,7 +44,10 @@ namespace WindowsFormsTaller22_05
             lstNSS.Items.Add( NSS);
             lstSuel.Items.Add("$" + ObjEA.Sueldo);
             lstCont.Items.Add(Cont);
-
+            txtNom.Clear();
+            txtApell.Clear();
+            txtNSS.Clear();
+            txtSal.Clear();
 
         }
 
@@ -69,6 +72,11 @@ namespace WindowsFormsTaller22_05
             lstNSS.Items.Add(NSS2);
             lstSuel.Items.Add("$" + ObjEH.Sueldo);
             lstCont.Items.Add(Cont);
+            txtNom2.Clear();
+            txtApell2.Clear();
+            txtNSS2.Clear();
+            txtSal2.Clear();
+            txtHoras.Clear();
         }
 
         private void btnCalc3_Click(object sender, EventArgs e)
@@ -87,7 +95,11 @@ namespace WindowsFormsTaller22_05
             lstNSS.Items.Add( NSS3);
             lstSuel.Items.Add("$"+ObjeEXC.Sueldo);
             lstCont.Items.Add(Cont);
-
+            txtNom3.Clear();
+            txtApell3.Clear();
+            txtNSS3.Clear();
+            txtVenB3.Clear();
+            txtTarCo3.Clear();
         }
 
         private void btnCalc4_Click(object sender, EventArgs e)
@@ -107,7 +119,12 @@ namespace WindowsFormsTaller22_05
             lstNSS.Items.Add(NSS4);
             lstSuel.Items.Add("$" + ObjeEBC.Sueldo);
             lstCont.Items.Add(Cont);
-
+            txtNom4.Clear();
+            txtApell4.Clear();
+            txtNSS4.Clear();
+            txtSalB4.Clear();
+            txtTarC4.Clear();
+            txtVentB4.Clear();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)

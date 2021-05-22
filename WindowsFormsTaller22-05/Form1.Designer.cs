@@ -718,7 +718,7 @@ namespace WindowsFormsTaller22_05
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Empleados Abstract";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
