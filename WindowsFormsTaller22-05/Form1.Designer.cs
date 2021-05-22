@@ -186,7 +186,7 @@ namespace WindowsFormsTaller22_05
             // btnSig
             // 
             this.btnSig.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSig.Location = new System.Drawing.Point(489, 495);
+            this.btnSig.Location = new System.Drawing.Point(500, 495);
             this.btnSig.Name = "btnSig";
             this.btnSig.Size = new System.Drawing.Size(92, 33);
             this.btnSig.TabIndex = 6;
