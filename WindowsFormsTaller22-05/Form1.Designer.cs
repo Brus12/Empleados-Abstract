@@ -91,6 +91,8 @@ namespace WindowsFormsTaller22_05
             this.label26 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.lstCont = new System.Windows.Forms.ListBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -102,7 +104,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(258, 27);
+            this.label1.Location = new System.Drawing.Point(259, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 20);
             this.label1.TabIndex = 1;
@@ -115,7 +117,7 @@ namespace WindowsFormsTaller22_05
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(68, 82);
+            this.tabControl1.Location = new System.Drawing.Point(51, 49);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(651, 256);
@@ -169,7 +171,7 @@ namespace WindowsFormsTaller22_05
             this.lstNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstNom.FormattingEnabled = true;
             this.lstNom.ItemHeight = 16;
-            this.lstNom.Location = new System.Drawing.Point(159, 385);
+            this.lstNom.Location = new System.Drawing.Point(163, 353);
             this.lstNom.Name = "lstNom";
             this.lstNom.Size = new System.Drawing.Size(120, 82);
             this.lstNom.TabIndex = 4;
@@ -177,7 +179,7 @@ namespace WindowsFormsTaller22_05
             // btnLimpiar
             // 
             this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(135, 495);
+            this.btnLimpiar.Location = new System.Drawing.Point(140, 450);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(84, 33);
             this.btnLimpiar.TabIndex = 5;
@@ -188,7 +190,7 @@ namespace WindowsFormsTaller22_05
             // btnSig
             // 
             this.btnSig.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSig.Location = new System.Drawing.Point(500, 495);
+            this.btnSig.Location = new System.Drawing.Point(505, 450);
             this.btnSig.Name = "btnSig";
             this.btnSig.Size = new System.Drawing.Size(92, 33);
             this.btnSig.TabIndex = 6;
@@ -321,7 +323,7 @@ namespace WindowsFormsTaller22_05
             this.lstApell.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstApell.FormattingEnabled = true;
             this.lstApell.ItemHeight = 16;
-            this.lstApell.Location = new System.Drawing.Point(322, 385);
+            this.lstApell.Location = new System.Drawing.Point(326, 353);
             this.lstApell.Name = "lstApell";
             this.lstApell.Size = new System.Drawing.Size(120, 82);
             this.lstApell.TabIndex = 7;
@@ -333,7 +335,7 @@ namespace WindowsFormsTaller22_05
             this.lstNSS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstNSS.FormattingEnabled = true;
             this.lstNSS.ItemHeight = 16;
-            this.lstNSS.Location = new System.Drawing.Point(473, 385);
+            this.lstNSS.Location = new System.Drawing.Point(477, 353);
             this.lstNSS.Name = "lstNSS";
             this.lstNSS.Size = new System.Drawing.Size(120, 82);
             this.lstNSS.TabIndex = 8;
@@ -345,7 +347,7 @@ namespace WindowsFormsTaller22_05
             this.lstSuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstSuel.FormattingEnabled = true;
             this.lstSuel.ItemHeight = 16;
-            this.lstSuel.Location = new System.Drawing.Point(619, 385);
+            this.lstSuel.Location = new System.Drawing.Point(623, 353);
             this.lstSuel.Name = "lstSuel";
             this.lstSuel.Size = new System.Drawing.Size(120, 82);
             this.lstSuel.TabIndex = 9;
@@ -354,7 +356,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(147, 357);
+            this.label6.Location = new System.Drawing.Point(151, 325);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(145, 17);
             this.label6.TabIndex = 10;
@@ -364,7 +366,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(309, 357);
+            this.label7.Location = new System.Drawing.Point(313, 325);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(147, 17);
             this.label7.TabIndex = 11;
@@ -374,7 +376,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(473, 357);
+            this.label8.Location = new System.Drawing.Point(477, 325);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(120, 17);
             this.label8.TabIndex = 12;
@@ -384,7 +386,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(610, 357);
+            this.label9.Location = new System.Drawing.Point(614, 325);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(139, 17);
             this.label9.TabIndex = 13;
@@ -680,7 +682,7 @@ namespace WindowsFormsTaller22_05
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(32, 357);
+            this.label20.Location = new System.Drawing.Point(36, 325);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(98, 17);
             this.label20.TabIndex = 15;
@@ -693,16 +695,38 @@ namespace WindowsFormsTaller22_05
             this.lstCont.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstCont.FormattingEnabled = true;
             this.lstCont.ItemHeight = 16;
-            this.lstCont.Location = new System.Drawing.Point(51, 385);
+            this.lstCont.Location = new System.Drawing.Point(55, 353);
             this.lstCont.Name = "lstCont";
             this.lstCont.Size = new System.Drawing.Size(61, 82);
             this.lstCont.TabIndex = 14;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(4, 501);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(238, 13);
+            this.label27.TabIndex = 16;
+            this.label27.Text = "Creadores: Bruno Uriel Flores Hernández";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(62, 518);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(161, 13);
+            this.label28.TabIndex = 17;
+            this.label28.Text = "Gustavo Mayorga Gutierrez";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 540);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.lstCont);
             this.Controls.Add(this.label9);
@@ -718,7 +742,7 @@ namespace WindowsFormsTaller22_05
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Empleados Abstract";
+            this.Text = "Empleados Interface";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -797,6 +821,8 @@ namespace WindowsFormsTaller22_05
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ListBox lstCont;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
     }
 }
 
