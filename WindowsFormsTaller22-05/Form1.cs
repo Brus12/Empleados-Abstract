@@ -42,7 +42,7 @@ namespace WindowsFormsTaller22_05
             lstNom.Items.Add( Nombre);
             lstApell.Items.Add( Apellido);
             lstNSS.Items.Add( NSS);
-            lstSuel.Items.Add(ObjEA.Sueldo);
+            lstSuel.Items.Add("$" + ObjEA.Sueldo);
             lstCont.Items.Add(Cont);
 
 
@@ -67,7 +67,7 @@ namespace WindowsFormsTaller22_05
             lstNom.Items.Add(Nombre2);
             lstApell.Items.Add(Apellido2);
             lstNSS.Items.Add(NSS2);
-            lstSuel.Items.Add(ObjEH.Sueldo);
+            lstSuel.Items.Add("$" + ObjEH.Sueldo);
             lstCont.Items.Add(Cont);
         }
 
@@ -85,7 +85,7 @@ namespace WindowsFormsTaller22_05
             lstNom.Items.Add(Nombre3);
             lstApell.Items.Add( Apellido3);
             lstNSS.Items.Add( NSS3);
-            lstSuel.Items.Add(ObjeEXC.Sueldo);
+            lstSuel.Items.Add("$"+ObjeEXC.Sueldo);
             lstCont.Items.Add(Cont);
 
         }
@@ -105,7 +105,7 @@ namespace WindowsFormsTaller22_05
             lstNom.Items.Add(Nombre4);
             lstApell.Items.Add(Apellido4);
             lstNSS.Items.Add(NSS4);
-            lstSuel.Items.Add(ObjeEBC.Sueldo);
+            lstSuel.Items.Add("$" + ObjeEBC.Sueldo);
             lstCont.Items.Add(Cont);
 
         }
