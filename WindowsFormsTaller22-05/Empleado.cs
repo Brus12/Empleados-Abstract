@@ -18,4 +18,5 @@ namespace WindowsFormsTaller22_05
         // SH sueldo hora Empleado por Horas
         // HT horas trabajadas de empleado por horas
     }
+    
 }
